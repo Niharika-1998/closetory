@@ -35,6 +35,7 @@ products = [
         "fabric": "Textured light pink tweed with subtle sequin integration for soft shimmer. Features functional drawstring/lace-up closure.",
         "styling_notes": "Wear with nude heels to let the texture shine, or pair the blazer with white denim for versatile day looks.",
         "curation_note": "This co-ord is what happens when classic tailoring meets contemporary charm—structured yet playful, feminine without being delicate. The rosette details are conversation-starters.",
+        "label_url": "https://fleye.in/collections/new-drops/products/4-pink-blazer-and-skirt",
         "created_at": datetime.now(timezone.utc).isoformat()
     },
     {
