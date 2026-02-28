@@ -36,14 +36,14 @@ const Footer = () => {
           <div>
             <h4 className="font-body text-sm uppercase tracking-wide mb-6">Connect</h4>
             <a 
-              href="https://instagram.com/closetory" 
+              href="https://instagram.com/closetory.cs" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-muted-foreground hover:text-accent transition-colors font-body text-sm"
               data-testid="instagram-link"
             >
               <Instagram className="w-5 h-5" />
-              @closetory
+              @closetory.cs
             </a>
           </div>
         </div>
