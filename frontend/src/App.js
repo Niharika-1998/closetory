@@ -13,6 +13,7 @@ import LoginPage from '@/pages/LoginPage';
 import AuthCallback from '@/components/AuthCallback';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import ScrollToTop from '@/components/ScrollToTop';
 import { AuthProvider } from '@/contexts/AuthContext';
 import { Toaster } from '@/components/ui/sonner';
 
@@ -27,6 +28,7 @@ function AppRouter() {
 
   return (
     <>
+      <ScrollToTop />
       {showNavAndFooter && <Navbar />}
       <Routes>
         <Route path="/" element={<HomePage />} />
