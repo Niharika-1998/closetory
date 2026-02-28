@@ -76,15 +76,22 @@ const ProductCard = ({ product }) => {
           <Heart className={`w-4 h-4 ${isInWishlist ? 'fill-accent text-accent' : ''}`} />
         </button>
 
-        {isHovered && (
+        {isHovered && product.label_url && (
           <div className="absolute bottom-0 left-0 right-0 p-4 bg-background/95 backdrop-blur-sm translate-y-0 transition-transform duration-300">
-            <Button 
-              onClick={handleAddToCart}
-              className="w-full rounded-sm uppercase tracking-widest font-medium text-xs px-8 py-4 bg-primary text-primary-foreground hover:bg-primary/90"
-              data-testid={`add-to-cart-${product.product_id}`}
+            <a
+              href={product.label_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              className="block"
             >
-              Add to Cart
-            </Button>
+              <Button 
+                className="w-full rounded-sm uppercase tracking-widest font-medium text-xs px-8 py-4 bg-primary text-primary-foreground hover:bg-primary/90"
+                data-testid={`view-label-${product.product_id}`}
+              >
+                View on Label's Website
+              </Button>
+            </a>
           </div>
         )}
       </div>
