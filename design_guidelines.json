@@ -1,0 +1,130 @@
+{
+  "project_name": "Closetory",
+  "design_philosophy": {
+    "core_identity": "E1: The Anti-AI Designer",
+    "mission": "Build a premium, editorial-style fashion e-commerce website that feels like a curated magazine.",
+    "vibe": "Elevated, Cultured, Intentional, Main-Character Energy",
+    "theme_strategy": "Light Theme Only (Ivory/Beige/Gold)",
+    "visual_direction": "Minimal, Editorial, Luxury, Asymmetrical layouts, Generous whitespace"
+  },
+  "typography": {
+    "font_family": {
+      "headings": "\"Playfair Display\", serif",
+      "body": "\"Mulish\", sans-serif",
+      "accent": "\"Cormorant Garamond\", serif"
+    },
+    "font_url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Mulish:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap",
+    "usage_rules": {
+      "headings": "Use Playfair Display for all H1-H3. Letter spacing -0.02em. Font weight 400 or 500 (avoid bold).",
+      "body": "Use Mulish for all paragraphs and UI text. High legibility. Font weight 300 or 400.",
+      "accents": "Use Cormorant Garamond Italic for subheadings, quotes, or 'pre-titles' to add editorial flair."
+    }
+  },
+  "colors": {
+    "palette": {
+      "primary": "#1A1A18",
+      "secondary": "#F5F2EB",
+      "accent": "#D4AF37",
+      "background": "#FFFCF5",
+      "surface": "#F0EBE0",
+      "muted": "#8C8880",
+      "border": "#E6E1D6"
+    },
+    "tailwind_config_override": {
+      "background": "40 33% 98%", 
+      "foreground": "60 5% 10%", 
+      "card": "40 20% 96%", 
+      "card-foreground": "60 5% 10%", 
+      "popover": "40 33% 98%", 
+      "popover-foreground": "60 5% 10%", 
+      "primary": "60 5% 10%", 
+      "primary-foreground": "40 33% 98%", 
+      "secondary": "40 20% 92%", 
+      "secondary-foreground": "60 5% 10%", 
+      "muted": "40 10% 90%", 
+      "muted-foreground": "30 5% 45%", 
+      "accent": "45 60% 52%", 
+      "accent-foreground": "40 33% 98%", 
+      "destructive": "0 84.2% 60.2%", 
+      "destructive-foreground": "0 0% 98%", 
+      "border": "40 15% 85%", 
+      "input": "40 15% 85%", 
+      "ring": "45 60% 52%" 
+    },
+    "notes": "Use HSL values in index.css. Background is warm ivory (FFFCF5), text is deep charcoal/obsidian (1A1A18), accents are muted gold."
+  },
+  "layout_strategies": {
+    "grid_system": "Bento Grid Mode A (Tetris) for collections. Asymmetrical. 12-column base.",
+    "spacing": "Generous. Double the standard Tailwind spacing. p-8 is the new p-4.",
+    "container": "Max width 1600px for hero, 1200px for reading content. Center aligned.",
+    "z_index": "Header: 50, Modals: 100, Toasts: 110."
+  },
+  "components": {
+    "buttons": {
+      "style": "Sharp corners or very slight radius (2px). Uppercase text. Wide tracking.",
+      "classes": "rounded-sm uppercase tracking-widest font-medium text-xs px-8 py-4 transition-all duration-300 hover:bg-primary/90"
+    },
+    "cards": {
+      "style": "Flat, no shadow initially. 1px border in muted beige. Large aspect ratio images.",
+      "classes": "border border-border/50 bg-transparent hover:border-accent/30 transition-colors duration-500"
+    },
+    "inputs": {
+      "style": "Underlined only (variant='flushed') or minimal border. No heavy backgrounds.",
+      "classes": "border-b border-border bg-transparent rounded-none px-0 focus-visible:ring-0 focus-visible:border-primary"
+    },
+    "navigation": {
+      "style": "Floating glass or split layout. Logo centered.",
+      "classes": "backdrop-blur-md bg-background/80 border-b border-border/20 sticky top-0 z-50"
+    }
+  },
+  "image_urls": {
+    "hero_section": {
+      "main_hero": "https://images.unsplash.com/photo-1610047592780-aa246f5635c2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzZ8MHwxfHNlYXJjaHwyfHxoaWdoJTIwZmFzaGlvbiUyMGVkaXRvcmlhbCUyMGluZGlhbiUyMHdvbWFuJTIwYmVpZ2UlMjBpdm9yeSUyMHdhcm0lMjBhZXN0aGV0aWN8ZW58MHx8fHwxNzcyMjYwMDEzfDA&ixlib=rb-4.1.0&q=85",
+      "sub_hero": "https://images.unsplash.com/photo-1740198827446-08055241eb87?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzZ8MHwxfHNlYXJjaHw0fHxoaWdoJTIwZmFzaGlvbiUyMGVkaXRvcmlhbCUyMGluZGlhbiUyMHdvbWFuJTIwYmVpZ2UlMjBpdm9yeSUyMHdhcm0lMjBhZXN0aGV0aWN8ZW58MHx8fHwxNzcyMjYwMDEzfDA&ixlib=rb-4.1.0&q=85"
+    },
+    "categories": {
+      "wedding": "https://images.unsplash.com/photo-1759906760638-eeffcb471e53?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBpbmRpYW4lMjBmYXNoaW9uJTIwb3V0Zml0JTIwd2VkZGluZyUyMGd1ZXN0JTIwc2FyZWUlMjBsZWhlbmdhJTIwZnVzaW9ufGVufDB8fHx8MTc3MjI2MDAyNHww&ixlib=rb-4.1.0&q=85",
+      "evening": "https://images.unsplash.com/photo-1767790693645-2373e54d4f02?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBpbmRpYW4lMjBmYXNoaW9uJTIwb3V0Zml0JTIwd2VkZGluZyUyMGd1ZXN0JTIwc2FyZWUlMjBsZWhlbmdhJTIwZnVzaW9ufGVufDB8fHx8MTc3MjI2MDAyNHww&ixlib=rb-4.1.0&q=85",
+      "resort": "https://images.unsplash.com/photo-1669197800714-2dc0c62b7c09?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzZ8MHwxfHNlYXJjaHwzfHxoaWdoJTIwZmFzaGlvbiUyMGVkaXRvcmlhbCUyMGluZGlhbiUyMHdvbWFuJTIwYmVpZ2UlMjBpdm9yeSUyMHdhcm0lMjBhZXN0aGV0aWN8ZW58MHx8fHwxNzcyMjYwMDEzfDA&ixlib=rb-4.1.0&q=85"
+    },
+    "products": [
+      {
+        "url": "https://images.unsplash.com/photo-1721807551095-63f747538a35?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBmYXNoaW9uJTIwYWNjZXNzb3JpZXMlMjBnb2xkJTIwamV3ZWxyeSUyMHNpbGslMjB0ZXh0dXJlJTIwZGV0YWlsfGVufDB8fHx8MTc3MjI2MDAxNHww&ixlib=rb-4.1.0&q=85",
+        "name": "Kundan Choker",
+        "category": "Jewelry"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1721807644923-df3186074d89?crop=entropy&cs=srgb\u0026fm=jpg\u0026ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBmYXNoaW9uJTIwYWNjZXNzb3JpZXMlMjBnb2xkJTIwamV3ZWxyeSUyMHNpbGslMjB0ZXh0dXJlJTIwZGV0YWlsfGVufDB8fHx8MTc3MjI2MDAxNHww\u0026ixlib=rb-4.1.0\u0026q=85",
+        "name": "Scarlet Silk Sari",
+        "category": "Apparel"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1728381031272-ba3f537feadd?crop=entropy&cs=srgb\u0026fm=jpg\u0026ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBmYXNoaW9uJTIwYWNjZXNzb3JpZXMlMjBnb2xkJTIwamV3ZWxyeSUyMHNpbGslMjB0ZXh0dXJlJTIwZGV0YWlsfGVufDB8fHx8MTc3MjI2MDAxNHww\u0026ixlib=rb-4.1.0\u0026q=85",
+        "name": "Gold Bangles Set",
+        "category": "Jewelry"
+      },
+      {
+         "url": "https://images.unsplash.com/photo-1755223738124-9aa6f5ea763f?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w4NjY2NzZ8MHwxfHNlYXJjaHwxfHxoaWdoJTIwZmFzaGlvbiUyMGVkaXRvcmlhbCUyMGluZGlhbiUyMHdvbWFuJTIwYmVpZ2UlMjBpdm9yeSUyMHdhcm0lMjBhZXN0aGV0aWN8ZW58MHx8fHwxNzcyMjYwMDEzfDA\u0026ixlib=rb-4.1.0\u0026q=85",
+         "name": "Temple Jewelry Set",
+         "category": "Jewelry"
+      }
+    ],
+    "about_us": "https://images.unsplash.com/photo-1687405182302-f1b28707c854?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w3NDQ6NDJ8MHwxfHNlYXJjaHwxfHxtaW5pbWFsJTIwYWVzdGhldGljJTIwYmVpZ2UlMjBsaW5lbiUyMGNvdHRvbiUyMGNsb3RoaW5nJTIwcmFjayUyMHN0b3JlJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzcyMjYwMDI1fDA\u0026ixlib=rb-4.1.0\u0026q=85"
+  },
+  "instructions_to_main_agent": [
+    "STEP 1: Update 'frontend/src/index.css' completely. Remove default Zinc colors. Replace with the HSL values from 'colors.tailwind_config_override'.",
+    "STEP 2: Install fonts in 'frontend/public/index.html' using the Google Fonts URL provided.",
+    "STEP 3: Configure 'frontend/tailwind.config.js' to ensure fonts are mapped (font-sans = Mulish, font-serif = Playfair Display, font-accent = Cormorant Garamond).",
+    "STEP 4: When building the Home Page, use the 'Bento Grid' layout for the 'Shop by Occasion' section. Do not use a simple row.",
+    "STEP 5: For the 'Product Card', use a large vertical aspect ratio (3:4 or 4:5). Hide 'Add to Cart' until hover.",
+    "STEP 6: Ensure NO component has a default blue/purple color. Everything must be Monochrome or Gold.",
+    "STEP 7: Add data-testid to all interactive elements."
+  ],
+  "universal_guidelines": [
+    "Do not use gradients.",
+    "Do not use rounded-xl or rounded-2xl. Keep it sharp (rounded-none or rounded-sm).",
+    "Use 2x more whitespace than you think is necessary.",
+    "Never center text in a paragraph. Left align always (except headlines).",
+    "Use 'tracking-wide' for all uppercase labels."
+  ]
+}
