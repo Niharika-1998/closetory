@@ -15,7 +15,7 @@ const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
 
 const occasions = ['all', 'wedding', 'evening', 'vacation', 'festive', 'brunch'];
-const categories = ['all', 'Outfits', 'Dresses', 'Co-ords', 'Accessories', 'Jewelry'];
+const categories = ['all', 'Dresses', 'Co-ord Sets', 'Tops & Blouses', 'Bottoms', 'Sarees & Ethnic', 'Jackets & Outerwear', 'Jumpsuits'];
 
 const ShopPage = () => {
   const [searchParams, setSearchParams] = useSearchParams();
