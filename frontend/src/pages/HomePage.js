@@ -145,32 +145,11 @@ const HomePage = () => {
       </section>
 
       <section className="bg-secondary/30 py-24">
-        <div className="max-w-[1200px] mx-auto px-8">
-          <div className="text-center mb-16">
-            <p className="font-accent text-lg italic text-muted-foreground mb-2">Our Makers</p>
-            <h2 className="font-display text-4xl md:text-5xl">Designer Spotlight</h2>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-12" data-testid="designer-spotlight">
-            {designers.map((designer) => (
-              <Link
-                key={designer.designer_id}
-                to={`/designers`}
-                className="group"
-                data-testid={`designer-${designer.designer_id}`}
-              >
-                <div className="aspect-square overflow-hidden border border-border/50 mb-6">
-                  <img 
-                    src={designer.image}
-                    alt={designer.name}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  />
-                </div>
-                <h3 className="font-display text-2xl mb-3">{designer.name}</h3>
-                <p className="font-body text-sm text-muted-foreground line-clamp-3">{designer.philosophy}</p>
-              </Link>
-            ))}
-          </div>
+        <div className="max-w-[1200px] mx-auto px-8 text-center">
+          <h2 className="font-display text-4xl md:text-5xl mb-6">Curated With Intention</h2>
+          <p className="font-body text-muted-foreground mb-8 text-lg max-w-3xl mx-auto">
+            Every piece on Closetory is personally handpicked by founder Niharika Chandak from India's most compelling homegrown labels. No algorithms, no mass production—just thoughtful curation that celebrates craftsmanship and character.
+          </p>
         </div>
       </section>
 
