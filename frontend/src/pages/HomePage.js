@@ -70,7 +70,7 @@ const HomePage = () => {
             <h1 className="font-display text-5xl md:text-7xl mb-6 max-w-3xl" data-testid="hero-heading">
               Every Closet Has a Story.
             </h1>
-            <p className="font-body text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl">
+            <p className="font-body text-lg md:text-xl text-foreground mb-12 max-w-2xl">
               India's most compelling emerging labels under one thoughtfully edited roof. Outfits that speak—with intention, craftsmanship, and confidence.
             </p>
             <div className="flex gap-6">
