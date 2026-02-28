@@ -97,6 +97,7 @@ class ProductCreate(BaseModel):
     fabric: Optional[str] = None
     styling_notes: Optional[str] = None
     curation_note: Optional[str] = None
+    label_url: Optional[str] = None
 
 class DesignerCreate(BaseModel):
     name: str
