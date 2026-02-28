@@ -73,6 +73,7 @@ products = [
         "fabric": "Georgette with embroidered Lucknowi work. Cape is front-open, free size. Pants are crepe-lined with back elastic.",
         "styling_notes": "Pair with statement earrings and mojris for a complete festive look. The mint green is perfect for daytime celebrations.",
         "curation_note": "Traditional Lucknowi craftsmanship with a contemporary silhouette—this is heritage fashion for the modern Indian woman who values both culture and comfort.",
+        "label_url": "https://aibyprerna.com/products/mint-green-lucknowi-set",
         "created_at": datetime.now(timezone.utc).isoformat()
     },
     
