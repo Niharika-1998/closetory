@@ -71,7 +71,7 @@ const HomePage = () => {
               Every Closet Has a Story.
             </h1>
             <p className="font-body text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl">
-              Handpicked statement outfits from India's most compelling emerging designers.
+              India's most compelling emerging labels under one thoughtfully edited roof. Outfits that speak—with intention, craftsmanship, and confidence.
             </p>
             <div className="flex gap-6">
               <Link to="/shop">
