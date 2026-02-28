@@ -39,9 +39,6 @@ const Navbar = () => {
             <Link to="/wishlist" data-testid="wishlist-icon">
               <Heart className="w-5 h-5 hover:text-accent transition-colors duration-300" />
             </Link>
-            <Link to="/cart" data-testid="cart-icon">
-              <ShoppingBag className="w-5 h-5 hover:text-accent transition-colors duration-300" />
-            </Link>
             
             {user ? (
               <DropdownMenu>
