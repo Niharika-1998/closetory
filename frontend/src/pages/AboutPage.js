@@ -41,6 +41,16 @@ const AboutPage = () => {
             </p>
           </div>
 
+          <div>
+            <h2 className="font-display text-3xl mb-6">How It Works</h2>
+            <p className="text-muted-foreground mb-4">
+              As a solo curator, Niharika personally scouts Instagram, visits local markets, and builds relationships with homegrown labels across India. Each piece you see on Closetory has been handpicked, vetted for quality, and chosen because it tells a story worth wearing.
+            </p>
+            <p className="text-muted-foreground">
+              This isn't a marketplace connecting you to hundreds of designers. This is one person's carefully curated edit—bringing you only the pieces that make the cut. Because your closet deserves better than algorithms and mass production.
+            </p>
+          </div>
+
           <div className="border-l-2 border-accent pl-8 py-4">
             <p className="font-accent text-xl italic">
               "Getting dressed isn't just routine — it's storytelling. And, every closet has a story to tell!"
