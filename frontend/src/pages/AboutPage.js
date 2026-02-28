@@ -24,36 +24,33 @@ const AboutPage = () => {
         <div className="space-y-12 font-body text-lg leading-relaxed">
           <div>
             <p className="font-accent text-2xl italic text-muted-foreground mb-6">
-              The problem with modern fashion? It's forgotten how to tell a story.
+              Closetory is a curated fashion destination that brings together India's most compelling emerging labels under one thoughtfully edited roof.
             </p>
             <p className="text-muted-foreground">
-              Scroll through any e-commerce site, and you'll find the same silhouettes, the same fabrics, the same predictable pieces. Fashion has become background noise—functional, forgettable, and frankly, a little boring.
+              In a world of repetitive fast fashion, Closetory celebrates outfits that speak — silhouettes with intention, craftsmanship with depth, and designs that carry culture, character, and confidence.
             </p>
           </div>
 
           <div>
-            <h2 className="font-display text-3xl mb-6">We believe in a different approach.</h2>
+            <h2 className="font-display text-3xl mb-6">Why We Exist</h2>
             <p className="text-muted-foreground mb-4">
-              Closetory exists because we believe your wardrobe should be a curated collection of outfits that speak to who you are. Not trends. Not seasons. You.
+              Each piece is handpicked to elevate your wardrobe from ordinary to unforgettable. Because getting dressed isn't just routine — it's storytelling.
             </p>
             <p className="text-muted-foreground">
-              We've moved away from the monotonous cycle of fast fashion and built something rare: a platform that champions emerging Indian designers who create with intention, craft with precision, and design with soul.
+              Every designer we work with brings something distinct. A signature silhouette. A textile tradition. A modern take on heritage. And when you wear their work, you're not just getting dressed—you're making a statement.
             </p>
           </div>
 
           <div className="border-l-2 border-accent pl-8 py-4">
             <p className="font-accent text-xl italic">
-              "These aren't just clothes. They're outfits with character, pieces with personality, designs with a pulse."
+              "Getting dressed isn't just routine — it's storytelling. And, every closet has a story to tell!"
             </p>
           </div>
 
           <div>
             <h2 className="font-display text-3xl mb-6">Our Mission</h2>
-            <p className="text-muted-foreground mb-4">
-              To spotlight the makers who are redefining Indian fashion—one stitch, one story, one stunning outfit at a time. We believe in slow fashion, mindful curation, and giving you access to pieces that deserve a place in your closet (and your life).
-            </p>
             <p className="text-muted-foreground">
-              Every designer we work with brings something distinct. A signature silhouette. A textile tradition. A modern take on heritage. And when you wear their work, you're not just getting dressed—you're making a statement.
+              To discover and spotlight exceptional homegrown designers creating meaningful, luxurious, and fresh fashion. We champion emerging Indian designers who create with intention, craft with precision, and design with soul—one stitch, one story, one stunning outfit at a time.
             </p>
           </div>
 
