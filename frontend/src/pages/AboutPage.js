@@ -65,11 +65,11 @@ const AboutPage = () => {
             <h2 className="font-display text-3xl mb-6 text-center">Meet the Founder</h2>
             <div className="text-center mb-8">
               <div className="w-32 h-32 rounded-full bg-muted mx-auto mb-6"></div>
-              <h3 className="font-display text-2xl mb-2">Priya Sharma</h3>
-              <p className="font-accent italic text-muted-foreground">Founder & Creative Director</p>
+              <h3 className="font-display text-2xl mb-2">Niharika Chandak</h3>
+              <p className="font-accent italic text-muted-foreground">Founder & Chief Curator</p>
             </div>
             <p className="text-muted-foreground text-center max-w-2xl mx-auto">
-              After years in the fashion industry watching homegrown talent get overshadowed by mass brands, Priya founded Closetory to change the narrative. Her mission: to create a platform where emerging Indian designers could shine and fashion-forward women could discover pieces that truly resonate.
+              Niharika started Closetory out of a simple frustration: endless scrolling through repetitive fast fashion with nothing that truly spoke to her. As a solo entrepreneur, she personally curates every single piece from India's most exciting homegrown labels—discovering hidden gems, building relationships with emerging designers, and bringing you outfits that deserve a place in your story.
             </p>
           </div>
 
