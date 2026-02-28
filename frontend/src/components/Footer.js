@@ -24,7 +24,7 @@ const Footer = () => {
             <h4 className="font-body text-sm uppercase tracking-wide mb-6">Company</h4>
             <ul className="space-y-3 font-body text-sm">
               <li><Link to="/about" className="text-muted-foreground hover:text-accent transition-colors">About Us</Link></li>
-              <li><a href="mailto:closetory.cs@gmail.com" className="text-muted-foreground hover:text-accent transition-colors">Contact</a></li>
+              <li><Link to="/contact" className="text-muted-foreground hover:text-accent transition-colors">Contact</Link></li>
             </ul>
           </div>
 
