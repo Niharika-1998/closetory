@@ -177,14 +177,28 @@ const ProductDetailPage = () => {
             )}
 
             <div className="flex gap-4 pt-8">
-              <Button 
-                onClick={handleAddToCart}
-                className="flex-1 rounded-sm uppercase tracking-widest font-medium text-xs px-8 py-6 bg-primary text-primary-foreground hover:bg-primary/90"
-                data-testid="add-to-cart-button"
-              >
-                <ShoppingBag className="w-4 h-4 mr-2" />
-                Add to Cart
-              </Button>
+              {product.label_url ? (
+                <a 
+                  href={product.label_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1"
+                >
+                  <Button 
+                    className="w-full rounded-sm uppercase tracking-widest font-medium text-xs px-8 py-6 bg-primary text-primary-foreground hover:bg-primary/90"
+                    data-testid="view-on-label-site-main"
+                  >
+                    View on Label's Website
+                  </Button>
+                </a>
+              ) : (
+                <Button 
+                  disabled
+                  className="flex-1 rounded-sm uppercase tracking-widest font-medium text-xs px-8 py-6"
+                >
+                  Coming Soon
+                </Button>
+              )}
               <Button 
                 onClick={handleWishlist}
                 variant="outline"
