@@ -54,6 +54,7 @@ products = [
         "fabric": "Lustrous silk satin blazer with sheer pleated skirt. Double-button closure cinches the waist for tailored fit.",
         "styling_notes": "Perfect for soirées, destination weddings, or statement eveningwear. Transitions effortlessly from day to night.",
         "curation_note": "Ethereal elegance meets structured sophistication. The sheer skirt adds contemporary edge to the tailored blazer—this is for the woman who wants to make an entrance.",
+        "label_url": "https://fleye.in/collections/bask-breathe/products/monte-carlo-co-ord",
         "created_at": datetime.now(timezone.utc).isoformat()
     },
     {
