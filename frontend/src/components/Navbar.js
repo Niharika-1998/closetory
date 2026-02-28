@@ -30,9 +30,6 @@ const Navbar = () => {
             <Link to="/shop" className="editorial-link text-sm uppercase tracking-wide" data-testid="shop-link">
               Shop
             </Link>
-            <Link to="/designers" className="editorial-link text-sm uppercase tracking-wide" data-testid="designers-link">
-              Designers
-            </Link>
             <Link to="/about" className="editorial-link text-sm uppercase tracking-wide" data-testid="about-link">
               About
             </Link>
