@@ -62,7 +62,7 @@ const HomePage = () => {
             alt="Closetory - Luxury Walk-in Closet"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/70 to-background/30"></div>
         </div>
         
         <div className="relative h-full flex items-end">
