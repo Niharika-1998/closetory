@@ -79,9 +79,9 @@ const HomePage = () => {
                   Explore the Edit
                 </Button>
               </Link>
-              <Link to="/designers">
-                <Button variant="outline" className="rounded-sm uppercase tracking-widest font-medium text-xs px-8 py-6 border-primary hover:bg-primary/10" data-testid="designers-button">
-                  Discover Designers
+              <Link to="/about">
+                <Button variant="outline" className="rounded-sm uppercase tracking-widest font-medium text-xs px-8 py-6 border-primary hover:bg-primary/10" data-testid="about-button">
+                  Our Story
                 </Button>
               </Link>
             </div>
