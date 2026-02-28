@@ -183,19 +183,19 @@ const HomePage = () => {
           <div className="text-center">
             <h3 className="font-display text-2xl mb-4">Curated</h3>
             <p className="font-body text-muted-foreground leading-relaxed">
-              Every piece is handpicked for its character, craftsmanship, and cultural resonance. No mass production.
+              Every piece is handpicked to elevate your wardrobe from ordinary to unforgettable. Silhouettes with intention, designs with depth.
             </p>
           </div>
           <div className="text-center">
             <h3 className="font-display text-2xl mb-4">Cultured</h3>
             <p className="font-body text-muted-foreground leading-relaxed">
-              We celebrate India's rich textile heritage through contemporary designs that honor tradition.
+              We celebrate designs that carry culture, character, and confidence—honoring India's rich textile heritage through contemporary fashion.
             </p>
           </div>
           <div className="text-center">
             <h3 className="font-display text-2xl mb-4">Unforgettable</h3>
             <p className="font-body text-muted-foreground leading-relaxed">
-              These aren't just clothes—they're statement pieces that tell your story with confidence.
+              Getting dressed isn't just routine—it's storytelling. These outfits make statements that resonate and memories that last.
             </p>
           </div>
         </div>
