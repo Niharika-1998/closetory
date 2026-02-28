@@ -92,8 +92,8 @@ const ShopPage = () => {
               </SelectTrigger>
               <SelectContent className="bg-background border-border">
                 {occasions.map((occasion) => (
-                  <SelectItem key={occasion} value={occasion} className="font-body capitalize">
-                    {occasion === 'all' ? 'All Occasions' : occasion}
+                  <SelectItem key={occasion} value={occasion} className="font-body">
+                    {occasionLabels[occasion]}
                   </SelectItem>
                 ))}
               </SelectContent>
