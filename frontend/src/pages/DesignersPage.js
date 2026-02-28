@@ -35,10 +35,10 @@ const DesignersPage = () => {
     <div className="min-h-screen" data-testid="designers-page">
       <section className="max-w-[1200px] mx-auto px-8 py-24">
         <div className="text-center mb-16">
-          <p className="font-accent text-lg italic text-muted-foreground mb-2">The Makers</p>
-          <h1 className="font-display text-5xl md:text-6xl mb-6">Our Designers</h1>
+          <p className="font-accent text-lg italic text-muted-foreground mb-2">The Collection</p>
+          <h1 className="font-display text-5xl md:text-6xl mb-6">Curated Labels</h1>
           <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
-            Meet the visionaries behind every piece. Each designer brings a unique perspective, blending heritage with contemporary design.
+            Every label featured on Closetory has been personally discovered and vetted by Niharika. These are the homegrown brands creating outfits worth investing in.
           </p>
         </div>
 
