@@ -126,8 +126,27 @@ const ProductDetailPage = () => {
 
             {designer && (
               <div>
-                <p className="font-body text-sm uppercase tracking-wide mb-2">Designer</p>
+                <p className="font-body text-sm uppercase tracking-wide mb-2">Label Name</p>
                 <p className="font-display text-xl">{designer.name}</p>
+              </div>
+            )}
+
+            {product.label_url && (
+              <div>
+                <a 
+                  href={product.label_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block"
+                >
+                  <Button 
+                    variant="outline"
+                    className="rounded-sm uppercase tracking-widest font-medium text-xs px-8 py-4 border-primary hover:bg-primary/10"
+                    data-testid="view-on-label-site"
+                  >
+                    View on Label's Website
+                  </Button>
+                </a>
               </div>
             )}
 
