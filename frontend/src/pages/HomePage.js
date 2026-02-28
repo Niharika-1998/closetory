@@ -58,7 +58,7 @@ const HomePage = () => {
       <section className="relative h-[90vh] overflow-hidden" data-testid="hero-section">
         <div className="absolute inset-0">
           <img 
-            src="https://static.prod-images.emergentagent.com/jobs/7baedaea-0ab9-44bd-88d4-20dcd8858633/images/246354e3ba15da855fb16b35af84e39d442c064089808cb265b50fb21562d52c.png"
+            src="https://static.prod-images.emergentagent.com/jobs/7baedaea-0ab9-44bd-88d4-20dcd8858633/images/3e597faee02b53736127f6f79883cfe40104ae3559f08f33ae5e31820277d991.png"
             alt="Closetory - Luxury Walk-in Closet"
             className="w-full h-full object-cover"
           />
