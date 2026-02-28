@@ -95,6 +95,7 @@ products = [
     #     "fabric": "Fabric and material details",
     #     "styling_notes": "How to wear and style this piece",
     #     "curation_note": "Why you chose this - what makes it special for Closetory",
+    #     "label_url": "https://original-label-website.com/product-page",  # IMPORTANT: Add the original product URL
     #     "created_at": datetime.now(timezone.utc).isoformat()
     # },
 ]
