@@ -15,6 +15,14 @@ const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
 
 const occasions = ['all', 'vacations', 'brunches', 'evenings', 'wedding'];
+
+const occasionLabels = {
+  'all': 'All Occasions',
+  'vacations': 'Vacations',
+  'brunches': 'Brunches & Day Outings',
+  'evenings': 'Evenings',
+  'wedding': 'Wedding & Festive'
+};
 const categories = ['all', 'Tops & Shirts', 'Bottoms', 'Dresses', 'Co-ord Sets', 'Jackets', 'Indian Ethnic', 'Woollens'];
 
 const ShopPage = () => {
