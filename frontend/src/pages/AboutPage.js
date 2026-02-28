@@ -79,14 +79,14 @@ const AboutPage = () => {
               Follow our journey as we continue to discover and showcase India's most exciting emerging designers. Join our community of women who dress with intention and style with confidence.
             </p>
             <a 
-              href="https://instagram.com/closetory" 
+              href="https://instagram.com/closetory.cs" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 font-body text-accent hover:text-accent/80 transition-colors"
               data-testid="about-instagram-link"
             >
               <Instagram className="w-6 h-6" />
-              <span className="text-lg">@closetory</span>
+              <span className="text-lg">@closetory.cs</span>
             </a>
           </div>
 
